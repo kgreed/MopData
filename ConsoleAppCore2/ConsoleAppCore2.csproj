@@ -7,7 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\mopcore\MopCore.csproj" />
-    <ProjectReference Include="..\MopData\MopFramework.csproj" />
+    <ProjectReference Include="..\MopStandard\MopFW.csproj" />
   </ItemGroup>
 
 </Project>
