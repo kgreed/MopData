@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>MopCore</AssemblyName>
+    <RootNamespace>MopCore</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

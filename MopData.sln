@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MopData", "MopData\MopData.csproj", "{2642FD0A-58A8-42A8-B398-51C408A7B639}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MopFramework", "MopData\MopFramework.csproj", "{2642FD0A-58A8-42A8-B398-51C408A7B639}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mopcore", "mopcore\mopcore.csproj", "{032CC152-04B7-4929-BFE9-48991CADC3A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MopCore", "mopcore\MopCore.csproj", "{032CC152-04B7-4929-BFE9-48991CADC3A0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppCore2", "ConsoleAppCore2\ConsoleAppCore2.csproj", "{99D83ACE-5F48-41DE-9F02-8F00017A21D4}"
 EndProject

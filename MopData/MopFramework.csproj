@@ -7,8 +7,8 @@
     <ProjectGuid>{2642FD0A-58A8-42A8-B398-51C408A7B639}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MopData</RootNamespace>
-    <AssemblyName>MopData</AssemblyName>
+    <RootNamespace>MopFramework</RootNamespace>
+    <AssemblyName>MopFramework</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -44,7 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MypContext.cs" />
+    <Compile Include="MopContext.cs" />
     <Compile Include="Mop.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

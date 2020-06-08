@@ -6,8 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\mopcore\mopcore.csproj" />
-    <ProjectReference Include="..\MopData\MopData.csproj" />
+    <ProjectReference Include="..\mopcore\MopCore.csproj" />
+    <ProjectReference Include="..\MopData\MopFramework.csproj" />
   </ItemGroup>
 
 </Project>

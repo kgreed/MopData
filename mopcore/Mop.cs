@@ -1,4 +1,4 @@
-﻿namespace mopcore
+﻿namespace MopCore
 {
     public class Mop
     {

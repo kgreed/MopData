@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-namespace mopcore
+namespace MopCore
 {
     public class MopContext : DbContext
     {

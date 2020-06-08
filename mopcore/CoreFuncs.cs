@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-namespace mopcore
+namespace MopCore
 {
     public class CoreFuncs
     {

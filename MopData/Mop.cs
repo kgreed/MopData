@@ -1,4 +1,4 @@
-﻿namespace MopData
+﻿namespace MopFramework
 {
     public class Mop
     {
