@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using MopCore;
+using MopFW;
 namespace ConsoleAppCore2
 {
     class Program
@@ -26,7 +27,7 @@ namespace ConsoleAppCore2
         private static void CountMopsFramework()
         {
             Console.WriteLine($"Hi");
-            using (var context = new MopFramework.MopContext())
+            using (var context = new MopFW.MopContext())
             {
                 var num = context.Mops.Count();
                 Console.WriteLine($"There are {num} mops \r\n in {context.Database.Connection.ConnectionString}");
