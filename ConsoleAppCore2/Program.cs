@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 using MopCore;
-
+using MopFW;
 namespace ConsoleAppCore2
 {
     class Program
@@ -10,7 +10,7 @@ namespace ConsoleAppCore2
         {
             Console.WriteLine("Hello World!");
             CountMopsCore();
-            CountMopsFramework();
+            FW.CountMopsFramework();
         }
 
         private static void CountMopsCore()
@@ -24,15 +24,6 @@ namespace ConsoleAppCore2
             Console.ReadKey();
         }
 
-        private static void CountMopsFramework()
-        {
-            Console.WriteLine($"Hi");
-            using (var context = new MopFW.MopContext())
-            {
-                var num = context.Mops.Count();
-                Console.WriteLine($"There are {num} mops \r\n in {context.Database.Connection.ConnectionString}");
-            }
-            Console.ReadKey();
-        }
+       
     }
 }
