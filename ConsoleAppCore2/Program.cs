@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 using MopCore;
-using MopFW;
+
 namespace ConsoleAppCore2
 {
     class Program

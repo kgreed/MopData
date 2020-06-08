@@ -1,13 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFrameworks>netcoreapp3.1;net472</TargetFrameworks>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\mopcore\MopCore.csproj" />
-    <ProjectReference Include="..\MopStandard\MopFW.csproj" />
-  </ItemGroup>
-
+	<ItemGroup Condition=" '$(TargetFramework)' == 'netcoreapp3.1' ">
+		<ProjectReference Include="..\mopcore\MopCore.csproj" />
+	</ItemGroup>
+	<ItemGroup Condition=" '$(TargetFramework)' == 'net472' ">
+		<ProjectReference Include="..\MopStandard\MopFW.csproj" />
+	</ItemGroup>
 </Project>
